@@ -92,7 +92,7 @@ def filter_menu_logic(category=None, max_price=None, is_available=None):
 # -----------------------------
 @app.get("/")
 def home():
-    return {"message": "Welcome to QuickBite Food Delivery"}
+    return {"message": "Welcome to our FOODIE Food Delivery"}
 
 
 # -----------------------------
